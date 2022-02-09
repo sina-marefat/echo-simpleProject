@@ -1,0 +1,11 @@
+database:
+  default: myapp
+  myapp:
+    adapter: postgres
+    log: true # logs every database query
+    host: localhost
+    port: 54320
+    username: postgres
+    password: "secret"
+    db_name: myapp
+    ssl_mode: disable
